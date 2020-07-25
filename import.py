@@ -142,6 +142,7 @@ for row in csv_object:
 
 		# Define mapping of import categories to : Mint Category IDs
 		switcher={
+			#Chase categories - incomplete
 			'Gas':1401,
 			'Food & Drink':7,
 			'Groceries':701,
