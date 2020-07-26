@@ -81,15 +81,15 @@ Mint Client Credentials
 You will need the tags, cookie, and token to simulate a UI form submission. You can get these by opening developer tools > network analysis tab and doing 
 a test submission in mint.com. From there look for the post request to "updateTransaction.xevent" and grab the credentials from the header and body
 """
-account = '8678032' # grab from POST request form body in devtools
-tag1 = 'tag2160487' # in form of tagXXXXXXX
-tag2 = 'tag2160488' # in form of tagXXXXXXX
-tag3 = 'tag2160489' # in form of tagXXXXXXX
-cookie = 'ius_session=393219D79D2046B0A0FFEB345B6FB3AD; ivid_b=ebe09dfe-4cbf-4ce9-b0ce-ae3183e2a6fa; ivid=32158a1e-606e-4f2b-9271-4434c00368ed; did=SHOPPER2_7608f316cf47aeb30bc3bc169281c938238fa9be2f03e17235a8eef2631056d9eccc748e75fdbd2f50ffe1acf66dc38b; s_cc=true; s_fid=08DF544090B949EF-2B1098D7B86EE6C8; s_sq=%5B%5BB%5D%5D; s_vi=[CS]v1|2F8D1B768515A4CC-600007EE358777FB[CE]; qbn.uidp=653a2c2fe44cc04dcfb9aafcb8394acdf0; userIdentifier=334256120; ius_at.enabled=true; ius_at=1595688187159; ADRUM=s=1595688188265&r=https%3A%2F%2Faccounts.intuit.com%2Findex.html%3F545220263; _exp_mintPN=11; MINTJSESSIONID=2FB76B197E12A715086335A3D215D645; ROUTEID=.3FJYMUQ4B11; AMCV_969430F0543F253D0A4C98C6%40AdobeOrg=0%7CMCMID%7C59337025658542685982900583156193925908; mintPN=11; currentClientType=Mint; brandingOption=whitelabel; current-config-source=Back-end; mu=1; userguid=8AEA3561D84F4773; mintUserName=""; wa_login=1; _transactionIframeLocation=undefined; login.offering=Mint; qbn.ticket=V1-98-X0dmfg6xwermvvqqv83ymy; qbn.tkt=V1-98-X0dmfg6xwermvvqqv83ymy; qbn.authid=334256120; qbn.gauthid=334256120; qbn.agentid=334256120; qbn.parentid=50000003; mint.ticket=V1-98-X0dmfg6xwermvvqqv83ymy; mint.tkt=V1-98-X0dmfg6xwermvvqqv83ymy; mint.authid=334256120; mint.gauthid=334256120; mint.agentid=334256120; mint.parentid=50000003; QSI_HistorySession=https%3A%2F%2Fmint.intuit.com%2Foverview.event~1595645854413; websdk_swiper_flags=first_sc_hit%2Cwait_for_sc; ajs_anonymous_id=%2232158a1e-606e-4f2b-9271-4434c00368ed%22; pseudonymID=653a2c2fe44cc04dcfb9aafcb8394acdf0; ajs_user_id=%22653a2c2fe44cc04dcfb9aafcb8394acdf0%22'
+account = '' # grab from POST request form body in devtools
+tag1 = '' # in form of tagXXXXXXX
+tag2 = '' # in form of tagXXXXXXX
+tag3 = '' # in form of tagXXXXXXX
+cookie = ''
 # grab from POST request header in devtools 
 referrer = 'https://mint.intuit.com/transaction.event'
 # grab from POST request header in devtools 
-token = '100274756IDHSqVIjLHaOYQQy6Xs8bLxQ2S7vNGwoVRLgT0A'
+token = ''
 # grab from POST request form body in devtools 
 
 """
